@@ -58,7 +58,6 @@ export default class Game extends React.Component {
         console.log(this.state.guesses)
         this.setState({
             newGuess: guess,
-            // guesses: [...this.state.guesses, this.state.newGuess]
         })
     }
 
